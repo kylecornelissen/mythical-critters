@@ -3,7 +3,7 @@ class Wizard {
     // console.log(info.bearded || true)
     this.name = info.name;
     // OR this.name = name['name'];
-    this.bearded = (info.bearded === false) ? false: true
+    this.bearded = (info.bearded === false) ? false: true;
     // OR this.bearded = info.bearded !== false
     this.isRested = true;
     this.castCount = 0;
