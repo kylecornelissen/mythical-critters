@@ -3,7 +3,6 @@ class Person {
     this.name = name;
     this.stoned = false;
   }
-  
 }
 
 module.exports = Person;
