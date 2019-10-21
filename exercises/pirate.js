@@ -8,7 +8,7 @@ class Pirate {
   }
   commitHeinousAct() {
     this.heinousActsCommitted++;
-    if (this.heinousActsCommitted === 3) this.cursed = true;
+    if (this.heinousActsCommitted >= 3) this.cursed = true;
   }
   robShip() {
     this.booty += 100;
