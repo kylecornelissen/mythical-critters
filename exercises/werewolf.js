@@ -18,6 +18,11 @@ class Werewolf {
       this.hunger = false;
     }
   }
+  // change() {
+      // this.human = !this.human;
+      // this.wolf = !this.wolf;
+      // this.hunger = !this.hunger;
+  // }
   eat(victim) {
     if (this.hunger === true) {
       this.victims.push(victim);
