@@ -1,10 +1,10 @@
 class Wizard {
-  constructor(info) {
-    // console.log(info.bearded || true)
-    this.name = info.name;
+  constructor(obj) {
+    // console.log(obj.bearded || true)
+    this.name = obj.name;
     // OR this.name = name['name'];
-    this.bearded = (info.bearded === false) ? false: true;
-    // OR this.bearded = info.bearded !== false
+    this.bearded = (obj.bearded === false) ? false: true;
+    // OR this.bearded = obj.bearded !== false
     this.isRested = true;
     this.castCount = 0;
   }
